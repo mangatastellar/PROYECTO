@@ -12,23 +12,20 @@
 
 <body>
 
-   <!-- MENÚ LATERAL -->
 
 <div id="menuLateral" class="menu-lateral">
 
-    <!-- LOGO -->
     <div class="menu-logo">
         <img src="imagenes/logo.jpeg">
     </div>
 
-    <!-- TITULO -->
+
     <h2>Menu</h2>
 
     <p class="subtitulo">
         Selecciona el método de entrega
     </p>
 
-    <!-- OPCIONES -->
 
     <div class="opcion-menu">
         <span>Metodo de pago</span>
@@ -40,7 +37,6 @@
         <span>❯</span>
     </div>
 
-    <!-- SERVICIOS -->
     <div class="otros-servicios">
 
         <h3>Otros servicios</h3>
@@ -75,26 +71,22 @@
     <header>
 
         <div class="top">
-
-            <!-- BOTÓN MENÚ -->
             <div class="menu" id="botonMenu">
                 ☰
             </div>
 
-            <!-- LOGO -->
             <div class="logo">
                 <img src="imagenes/logo.jpeg">
             </div>
 
-            <!-- BUSCADOR -->
-            <div class="buscador">
-
-                <input
+            <div class="buscador"> <input
                     type="text"
                     id="buscar"
                     placeholder="Buscar productos..."
                     onkeyup="buscarProducto()"
                 >
+
+               
 
                 <button onclick="buscarProducto()">
                     <img src="imagenes/lupa.png">
@@ -102,19 +94,15 @@
 
             </div>
 
-            <!-- CARRITO -->
             <div class="iconos" onclick="abrirCarrito()">
                 <img src="imagenes/carrito.png">
             </div>
-
-            <!-- INGRESAR -->
-            <button class="ingresar" onclick="ingresar()">
-                Ingresar
-            </button>
+            <a href="login.html">
+                <button class="ingresar">ingresar</button>
+            </a>
 
         </div>
 
-        <!-- CATEGORÍAS -->
         <div class="categorias">
 
             <a href="#oferta">Oferta</a>
@@ -128,14 +116,11 @@
 
     </header>
 
-    <!-- OFERTA -->
     <section id="oferta">
 
         <h1>Oferta</h1>
-
+        
         <div class="productos">
-
-            <!-- PRODUCTO 1 -->
             <div class="card" onclick="verProducto('Cocacola 500mL')">
 
                 <img src="imagenes/coca.jpeg">
@@ -148,7 +133,6 @@
 
             </div>
 
-            <!-- PRODUCTO 2 -->
             <div class="card" onclick="verProducto('Pepsi 1,5L')">
 
                 <img src="imagenes/pepsi.jpeg">
@@ -160,8 +144,6 @@
                 <div class="viejo">$8,500</div>
 
             </div>
-
-            <!-- PRODUCTO 3 -->
             <div class="card" onclick="verProducto('Sprite 1,5L')">
 
                 <img src="imagenes/sprite.jpeg">

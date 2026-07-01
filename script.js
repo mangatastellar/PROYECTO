@@ -27,7 +27,6 @@
 
         }
 
-        // MENÚ
         const botonMenu =
             document.getElementById("botonMenu");
 
@@ -40,28 +39,25 @@
 
         });
 
-        // INGRESAR
         function ingresar() {
 
             alert("Ir a inicio de sesión");
 
         }
 
-        // CARRITO
+    
         function abrirCarrito() {
 
             alert("Tu carrito está vacío");
 
         }
 
-        // PRODUCTOS
         function verProducto(nombre) {
 
             alert("Producto seleccionado: " + nombre);
 
         }
 
-        // CATEGORÍAS ACTIVAS
         const categorias =
             document.querySelectorAll(".categorias a");
 
