@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
+    <!-- Carga de jQuery necesaria para tu script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="frmLogin" onsubmit="iniciarSesion(); return false;">
+        <div class="cajitastexto">
+            <img src="imagenes/logo.jpeg" alt="LOGO" class="logonoche">
+            <div class="iniciarSesion">Bienvenido al supermercado</div>
+            <div class="noche">Noche</div>
+
+            <input class="cajatexto" id="usuario" name="usuario_nombre" placeholder="Usuario" required>
+
+            <!-- Campo contraseña -->
+            <input class="cajatexto" type="password" id="contrasena" name="usuario_password" placeholder="Contraseña" required>
+
+            <!-- Casilla para mostrar/ocultar -->
+            <div class="opcion-mostrar">
+                <input type="checkbox" id="mostrar_contrasena" title="Clic para mostrar contraseña">
+                <label for="mostrar_contrasena">Mostrar Contraseña</label>
+            </div>
+
+            <button type="submit" class="ingresar">Ingresar</button>
+        </div>
+    </form>
+
+    <script src="login.js"></script>
+</body>
+</html>
